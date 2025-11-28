@@ -2,25 +2,24 @@
 # All dependencies are free and open-source
 
 # OCR & Vision
-paddleocr==2.7.0.3              # Fast, accurate table OCR
-pytesseract==0.3.10             # Tesseract fallback (optional)
-opencv-python==4.8.1.78         # Image preprocessing
+paddleocr            # Fast, accurate table OCR
+pytesseract            # Tesseract fallback (optional)
+opencv-python     # Image preprocessing
 
 # API & Web Framework
-fastapi==0.109.0                # Web framework
-uvicorn[standard]==0.27.0       # ASGI server
-pydantic==2.5.0                 # Request/response validation
-pydantic-settings==2.1.0        # Environment config
+fastapi               # Web framework
+uvicorn[standard]   # ASGI server
+pydantic                # Request/response validation
+pydantic-settings    # Environment config
 
 # Data Processing & Math
-numpy==1.24.3                   # Array operations & geometry
-pandas==2.0.3                   # Tabular data handling
-Pillow==10.1.0                  # Image handling
-
+numpy                # Array operations & geometry
+pandas                  # Tabular data handling
+Pillow
 # HTTP & Networking
-httpx==0.25.2                   # Async HTTP client
-aiofiles==23.2.1                # Async file operations
+httpx                # Async HTTP client
+aiofiles            # Async file operations
 
 # Utilities
-python-dotenv==1.0.0            # Environment variables
-python-multipart==0.0.6         # Form data parsing
+python-dotenv      # Environment variables
+python-multipart       # Form data parsing
